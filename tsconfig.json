@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "ES5",
+    "outDir": "bin-debug",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es5",
+      "dom",
+      "es2015.promise",
+      "esnext"
+    ],
+    "types": ["node"],
+    "typeRoots": ["./src/types", "node_modules/@types"],
+    "declaration": true,
+    "declarationDir": "lib/types"
+  },
+  "include": [
+    "src",
+    "test",
+    "./store2.d.ts"
+  ]
+}
